@@ -36,11 +36,11 @@ Histogram::~Histogram() {
 }
 
 int main() {
-  Histogram myhist(2, 4);
-  myhist.increment(3);
-  myhist.increment(4);
-  myhist.increment(2);
-  myhist.increment(2);
+  Histogram myhist;
+  //myhist.increment(3);
+  //myhist.increment(4);
+  //myhist.increment(2);
+  //myhist.increment(2);
   std::cout << myhist.string_rep() << "\n";
 
   return 0;
